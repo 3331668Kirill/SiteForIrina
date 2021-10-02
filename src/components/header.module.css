@@ -1,0 +1,18 @@
+.main{
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(240, 226, 214);
+}
+.header{
+    
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(240, 226, 214);
+}
+
+.item{
+    position:absolute; 
+    right:0;
+    
+}
+
