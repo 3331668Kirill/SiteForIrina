@@ -37,7 +37,7 @@ const Comments = () => {
 
     return (
         <div>
-
+            
             <div className="itk-slider" >
 
                 <button onClick={showPrevButton} disabled={disabledP}> PREV </button>

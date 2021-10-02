@@ -8,3 +8,11 @@
     text-align: center;
     background-color: rgb(255, 254, 253);
 }
+
+.img{
+    max-width: 350px;
+    max-height: 350px;
+}
+.mainImg{
+    float: right;
+}
