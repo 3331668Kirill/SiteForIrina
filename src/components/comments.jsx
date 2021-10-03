@@ -37,15 +37,12 @@ const Comments = () => {
 
     return (
         <div>
-            
-            <div className="itk-slider" >
+             <div className="itk-slider" >
 
                 <button onClick={showPrevButton} disabled={disabledP}> PREV </button>
                 <img className='slide-img' src={slideImageSrc} />
                 <button onClick={showNextButton} disabled={disabledN}> NEXT </button>
-
             </div>
-
         </div>
 
     )
