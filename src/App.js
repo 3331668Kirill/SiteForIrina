@@ -7,7 +7,6 @@ import Comments from './components/comments';
 function App() {
   return (
     <div className="App">
-     
      <Header />
      <Maintext/>
      <Comments/>
