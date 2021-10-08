@@ -1,5 +1,6 @@
 import React from 'react';
 import maintextstyle from './maintext.module.css'
+import photoIrina from '../photoIrina.png'
 
 const Maintext = () => {
     
@@ -16,7 +17,9 @@ const Maintext = () => {
 И я буду рада помочь тебе в этом!
 
 В разделе «Мои работы» вы можете посмотреть, как на практике работает Система типажей внешности - как меняется внешность, как она зажигается, стоит только ее правильно обыграть!
-
+<div className={maintextstyle.mainImg}>
+    <img className={maintextstyle.img} src={photoIrina} />
+</div>
     </div>
     )
 }

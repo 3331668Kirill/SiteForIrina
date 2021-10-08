@@ -3,7 +3,6 @@ import headerstyle from './header.module.css'
 
 
 const Header = () => {
-                                                                                                 
 
     return (<div className={headerstyle.main}>
     <div className={headerstyle.header}>
