@@ -1,11 +1,11 @@
 import React from 'react';
-import maintextstyle from './maintext.module.css'
+import mainTextStyle from './maintext.module.css'
 import photoIrina from '../photoIrina.png'
 
-const Maintext = () => {
+const MainText = (props) => {
     
 
-    return (<div className={maintextstyle.main}>
+    return (<div className={mainTextStyle.main}>
         Меня всегда интересовали вопросы женской красоты и гармонии - не только внешней, но и внутренней.
 
 Около 3-х лет назад я узнала о Системе типажей внешности. И с того момента моя жизнь перестала быть прежней.
@@ -17,11 +17,11 @@ const Maintext = () => {
 И я буду рада помочь тебе в этом!
 
 В разделе «Мои работы» вы можете посмотреть, как на практике работает Система типажей внешности - как меняется внешность, как она зажигается, стоит только ее правильно обыграть!
-<div className={maintextstyle.mainImg}>
-    <img className={maintextstyle.img} src={photoIrina} />
+<div className={mainTextStyle.mainImg}>
+    <img className={mainTextStyle.img} src={photoIrina} />
 </div>
     </div>
     )
 }
     
-export default Maintext;
+export default MainText;
